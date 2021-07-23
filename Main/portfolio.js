@@ -23,25 +23,23 @@ $("#main").fullpage({
 $("#mopen").on("click",function(){
   $(this).toggleClass("on");
   $("#cover_nav").toggleClass("on");
-
-
-
-  $(".m01 .xi-pause").on("click", function(){
-    $(".m001_video").trigger("pause");
-  });
-  
-  $(".m01 .xi-play").on("click", function(){
-      $(".m001_video").trigger("play");
-  
-    });
-
-    
-
-
-
-
-
 });
+
+
+
+$(".m01 .xi-pause").on("click", function(){
+    $(".m01_video").trigger("pause");
+  });
+
+$(".m01 .xi-play").on("click", function(){
+    $(".m01_video").trigger("play");
+});
+
+
+
+
+
+
 
 $("#cover_nav .link a").on("click" , function(){
   $("#cover_nav").removeClass("on")
