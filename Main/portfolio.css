@@ -139,6 +139,23 @@ nav li.on a:after {width:100%;}
 }
 
 
+.pf05 img {width:100%;}
+.pf05 p {margin-bottom:30px;}
+.pf05 span {line-height:1.6;}
+.pf05 .txt {padding:40px 0 0 60px}
+
+@media (max-width:768px) {
+    .pf05 figure {padding:0 30px;}
+    .pf05 img {width:100%;}
+    .pf05 p {margin-bottom:20px;}
+    .pf05 span {line-height:1.4;}
+    .pf05 .txt {padding:0 30px 30px 30px}
+
+}
+
+
+
+
 
 .info {background:rgb(128, 128, 128);color:#f2f2f2;text-align:right;padding:30px 0;}
 .info .txt {flex:3;align-items:center;padding:50px 0;}
